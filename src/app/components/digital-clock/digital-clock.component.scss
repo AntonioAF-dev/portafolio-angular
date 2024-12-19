@@ -1,0 +1,19 @@
+.digital-clock {
+    justify-content: end;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.time {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+    .digital-clock {
+        font-size: 0.6rem;
+    }
+    
+}
