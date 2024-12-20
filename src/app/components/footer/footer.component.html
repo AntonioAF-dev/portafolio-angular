@@ -1,20 +1,33 @@
 <footer>
-    <!-- Menú de Inicio -->
-    <div class="start-menu" onclick="alert('Abrir menú de inicio')">
-        <div class="icon">🪟</div>
-        <span>Inicio</span>
+    <!-- Menú de inicio -->
+    <div class="start-menu">
+        <img class="inicio" src="/assets/img/inicio.png" alt="Inicio" width="85rem">
+        <input type="text" placeholder="🔎 Escribe aquí para buscar">
     </div>
 
-    <!-- Barra de búsqueda -->
-    <div class="search-bar">
-        <div class="icon">🔍</div>
-        <input type="text" placeholder="Buscar en el sistema...">
+    <!-- Íconos de aplicaciones -->
+    <div class="taskbar-icons">
+        <div class="icon">
+            <img src="/assets/img/explorer.png" alt="Archivos">
+        </div>
+        <div class="icon">
+            <img src="/assets/img/music.png" alt="Musica">
+        </div>
+        <div class="icon">
+            <img src="/assets/img/videos.png" alt="Videos">
+        </div>
+        <div class="icon">
+            <img src="/assets/img/correo.png" alt="Correo">
+        </div>
+        <div class="icon">
+            <img src="/assets/img/proyectos.png" alt="Proyectos">
+        </div>
     </div>
 
-    <div class="actions">
-        <div class="icon" onclick="toggleTheme()">🌙</div> 
-        <div class="icon" onclick="alert('Abrir configuraciones')">⚙️</div> 
-        <div class="icon" onclick="alert('Mostrar íconos adicionales')">📄</div> 
+    <!-- Hora -->
+    <div class="taskbar-right">
+        <app-digital-clock></app-digital-clock>
+        <span>   🤖   </span>
+        <app-fecha></app-fecha>
     </div>
-    <app-digital-clock></app-digital-clock>
 </footer>

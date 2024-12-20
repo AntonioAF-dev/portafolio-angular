@@ -7,18 +7,22 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DesktopComponent } from './components/desktop/desktop.component';
 import { DigitalClockComponent } from './components/digital-clock/digital-clock.component';
+import { WindowComponent } from './components/window/window.component';
+import { FechaComponent } from './components/fecha/fecha.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DigitalClockComponent 
+    DigitalClockComponent   
   ],
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    DesktopComponent
+    DesktopComponent,
+    WindowComponent,
+    FechaComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
